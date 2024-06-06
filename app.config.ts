@@ -34,6 +34,33 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true
+    },
+    footer: {
+      credits: {
+        icon: 'IconDocus',
+        text: 'Powered by Docus',
+        href: 'https://docus.dev',
+      },
+      textLinks: [
+        {
+          text: 'Contact with developer',
+          href: 'https://t.me/khamroev',
+          target: '_blank',
+          rel: 'noopener'
+        }
+      ],
+      iconLinks: [
+        {
+          label: 'NuxtJS',
+          href: 'https://nuxtjs.org',
+          component: 'IconNuxtLabs',
+        },
+        {
+          label: 'Vue Telescope',
+          href: 'https://vuetelescope.com',
+          component: 'IconVueTelescope',
+        },
+      ],
     }
   }
 })
